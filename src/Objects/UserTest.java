@@ -4,8 +4,8 @@ public class UserTest {
     public static void main(String[] args) {
 
         User user = new User();  // 'user' is my INSTANCE
-        user.firstName = "Ridvan";
-        user.lastName = "Ceko";
+        user.setFirstName("Ridvan");
+        user.setLastName("Ceko");
 
 
      //   System.out.println(user.firstName);
@@ -14,8 +14,11 @@ public class UserTest {
         //so my output( int parameter)
 
         //since i want to use return type so I can assign and call with String
-        String message = user.output();
-        System.out.println(message);
+//        String message = user.output();
+//        System.out.println(message);
+
+        System.out.println(user.getFirstName() + " " + user.getLastName());
+
 
 
     }
