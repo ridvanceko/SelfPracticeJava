@@ -17,7 +17,9 @@ public class UserTest {
 //        String message = user.output();
 //        System.out.println(message);
 
-        System.out.println(user.getFirstName() + " " + user.getLastName());
+      //  System.out.println(user.getFirstName() + " " + user.getLastName());
+
+        System.out.println(user.getFullName());
 
 
 

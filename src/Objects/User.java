@@ -2,7 +2,7 @@ package Objects;
 
 public class User {
 
- private String firstName;
+    private String firstName;
     public String lastName;
 
     public String output() {  //for return type i wont need parameter and loop in here so i should delete
@@ -22,6 +22,9 @@ public class User {
     }
     public void setLastName(String ln) {
         lastName = ln;
+    }
+    public String getFullName() {
+        return getFirstName() + " " + lastName; //i wanted with Uppercase
     }
 
 }
