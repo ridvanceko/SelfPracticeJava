@@ -1,6 +1,6 @@
 package ZoomPractices;
 
-import javax.imageio.stream.ImageInputStream;
+
 import java.util.*;
 
 public class SetTask2 {
@@ -34,15 +34,10 @@ numbers(0-9) as the count of the int parameter. Add them into an ArrayList.
             } else {
                 set.add(arr.get(i));
             }
-
-
-
         }
 
         System.out.println(set);
-
     }
-
 
     public static void main(String[] args) {
 
