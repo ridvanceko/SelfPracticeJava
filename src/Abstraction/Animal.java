@@ -1,6 +1,6 @@
 package Abstraction;
 
-public class Animal {
+public abstract class Animal {
     String name;
     String color;
     int age;
